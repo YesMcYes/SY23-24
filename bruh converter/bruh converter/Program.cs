@@ -10,11 +10,11 @@ namespace bruh_converter
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 100; i++)
-            {
-                Console.WriteLine(i);
-            }
-            Console.ReadKey();
+            Console.WriteLine("put a number here NOW");
+            int num = 0;
+            int.TryParse(Console.ReadLine(), out num);
+            Console.WriteLine(num * 2);
+            Console.ReadLine();
         }
     }
 }
